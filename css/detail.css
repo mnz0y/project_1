@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+
+
+/* 슬라이더 */
+
+.product{
+    width: 1240px;
+    height: 650px;
+    margin: 0 auto;
+    
+}
+
+.imgbox{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    float: left;
+    margin: 50px 0 0 90px;
+    border: 1px solid #eee;
+}
+.imgbox img:hover{
+    cursor: zoom-in;
+    opacity: 0.7;
+}
+
+.imgbox>img{
+    width: 250px;
+    height: 500px;
+}
+
+.textbox{
+    width: 500px;
+    height: 450px;
+  
+    float: right;
+    margin: 75px 110px 0 0;
+    
+}
+.textbox h2{
+    font-size: 45px;
+}
+.textbox p{
+    color: #999;
+    text-indent: 0.5em;
+}
+
+.textbox table th{
+    text-align: left;
+    width: 130px;
+    
+}
+.textbox h3{
+    text-align: right;
+    font-size: 30px;
+    margin-right: 28px;
+}
+.buttonbox{
+    width: 210px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ecf7e9;
+    display: inline-block;
+    margin-left: 30px;
+    
+
+}
+.buttonbox button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 23px;
+    opacity: 0.5;
+    background-color: rgb(87, 136, 87);
+}
+.buttonbox button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.buttonbox input[type="text"]{
+    text-align: center;
+    font-size: large;
+    border: none;
+    width: 100px;
+    background-color: #ecf7e9;
+}
+
+
+.textbox>button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 30px;
+    
+}
+.textbox>button:hover{
+    background-color: #ecf7e9;
+    cursor: pointer;
+}
+
+
+
+
+/* 상세페이지 */
+
+.box{
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#detail>ul>li{
+    display: inline-block;
+    width: 410px;
+    height: 80px;
+    text-align: center;
+    background-color:  #ecf7e9;
+    font-size: 20px;
+    padding: 25px 0;
+
+}
+
+#detail>ul>li:hover{
+    font-weight: bold;
+
+}
+
+#detail img{
+    margin-top: 100px;
+}
+
+/* 반품 */
+#refund{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+#refund ul:first-child li{
+    display: inline-block;
+    width: 410px;
+    height: 80px;
+    text-align: center;
+    background-color:  #ecf7e9;
+    font-size: 20px;
+    padding: 25px 0;
+    margin-top: 200px;
+
+}
+
+#refund ul:first-child li:hover{
+    font-weight: bold;
+
+}
+
+
+#refund h2{
+    text-align: center;
+    font-size: 30px;
+margin: 50px;
+}
+#refund .policy{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 35px;
+}
+#refund .policy li{
+    list-style-type: disc;
+}
+
+
+
+/* 후기 */
+
+#review>ul:first-child li{
+    display: inline-block;
+    width: 410px;
+    height: 80px;
+    text-align: center;
+    background-color:  #ecf7e9;
+    font-size: 20px;
+    padding: 25px 0;
+    margin-top: 200px;
+
+}
+
+#review>ul:first-child li:hover{
+    font-weight: bold;
+
+}
+
+#review h2{
+    text-align: center;
+    font-size: 30px;
+margin: 50px;
+
+}
+
+.upper li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 30px;
+}
+.upper li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+img[alt="star"]{
+    float: right
+}
+.helpful p{
+    width: 800px;
+    border: 1px solid #555;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 13px;
+
+}
+.recent p{
+    width: 800px;
+    border: 1px solid #555;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 13px;
+    
+
+}
+span::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/user-128.png);
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+
+    
+   
+
+}
+
+.rebox{
+    clear: both;
+    height: 100px;
+    text-align: center;
+    background-color: #ecf7e9;
+    margin: 100px;
+}
+.rebox p{
+    padding: 20px 0 10px 0;
+
+}
+.rebox button{
+    
+    padding: 5px 15px;
+    border: none;
+    
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.rebox button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* 추천 */
+.bottombox{
+    width: 1240px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    
+   
+}
+.bottombox>p{
+    color: #999;
+    margin: 20px;
+}
+.winebox {
+    width: 300px;
+    height: 300px;
+   
+    
+    float: left;
+   
+}
+.winebox a{
+    display: block;
+    font-size: large;
+    color: black;
+    margin-top: 10px;
+    
+}
+.winebox a:hover{
+    opacity: 0.5;
+}
+.winebox img{
+    width: 100px;
+    height: 200px;
+    transition: 0.7s;
+}
+.winebox img:hover{
+    transform: scale(1.1);
+}
+
+   

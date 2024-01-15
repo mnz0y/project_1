@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+            $('.recent').hide();
+
+            $('.upper li:nth-of-type(1)').click(function(){
+                $('.helpful').show();
+                $('.recent').hide();
+            });
+            $('.upper li:nth-of-type(2)').click(function(){
+                $('.helpful').hide();
+                $('.recent').show();
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div id="logo">
+                <img src="img/logo-main.png" alt="main_logo">
+            </div>
+            <nav class="n1">
+                <a href="index.html">HOME</a>
+                <a href="index.html">VINEYARDS</a>
+                <ul>
+                    <li>
+                        <a href="index.html">WINES</a>
+                        <ul>
+                            <li><a href="sub.html">White Wines</a></li>
+                            <li><a href="sub.html">Red Wines</a></li>
+                            <li><a href="sub.html">Old Vintages</a></li>
+                            <li><a href="sub.html">Dessert Wines</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="index.html">VISIT AND TASTING</a>
+                <a href="index.html">CONTACT</a>
+            </nav>
+            <nav class="n2">
+                <ul>
+                    <li><a href="#">CART</a></li>
+
+                    <li><a href="#">
+                            <img src="img/qq.png" alt="돋보기">
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="product">
+        <div class="imgbox">
+            <img src="img/detail.png" alt="wine">
+        </div>
+        <div class="textbox">
+            <h2>Tullio Zamò 2017</h2>
+            <p>Pinot Blanco from Friuli-Venezia Giulia, Italy</p>
+            <p>★★★★☆ <strong>4.3 Very Good</strong></p>
+            <br>
+            <hr>
+            <br>
+
+            <table>
+                <tr>
+                    <th>Varietal</th>
+                    <td>Pinot Blanco</td>
+                </tr>
+                <tr>
+                    <th>Region</th>
+                    <td>Friuli-Venezia Giulia, Italy</td>
+                </tr>
+                <tr>
+                    <th>Producer</th>
+                    <td>Le Vigne di Zamò</td>
+                </tr>
+                <tr>
+                    <th>Vintage</th>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <th>Size</th>
+                    <td>750ML</td>
+                </tr>
+                <tr>
+                    <th>ABV</th>
+                    <td>13.5%</td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+            <br>
+            <h3>$ 40.5</h3>
+            <br>
+            <div class="buttonbox">
+                <button>-</button>
+                <input type="text" value="1">
+                <button>+</button>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+    <div class="box">
+        
+        <div id="detail">
+            <ul>
+                <li><a href="#detail"><strong>Product Details</strong></a></li>
+                <li><a href="#refund">Refund & Return Policy</a></li>
+                <li><a href="#review">Product Reviews</a></li>
+            </ul>
+            <img src="img/detail-page.png" alt="detail-page">
+        </div>
+        <div id="refund">
+            <ul>
+                <li><a href="#detail">Product Details</a></li>
+                <li><a href="#refund"><strong>Refund & Return Policy</strong>
+                    </a></li>
+                <li><a href="#review">Product Reviews</a></li>
+            </ul>
+
+            <h2>Refund & Return Policy
+            </h2>
+            <ul class="policy">
+                <li> Exchanges and refunds are only possible within 7 days of receipt. If you simply change your mind,
+                    the buyer must pay a round-trip shipping fee of 10 dollors.</li>
+                <li>If you receive free shipping with a purchase of 100 dollors or more , we will refund the initial
+                    shipping fee of 5 dollors.</li>
+                <li>If the value of the product is significantly reduced due to the customer's use or consumption, or if
+                    the product is damaged by the customer and loses its value, If the product packaging has been opened
+                    or the tag has been removed, If you return the product without prior contact, If the product or
+                    product package is damaged to the extent that resale is not possible, even if the product was
+                    incorrectly delivered.
+                    Exchanges and returns are not possible if 7 days have passed since you received the product.</li>
+                <li>Process damage unrelated to the product's original use is not grounds for exchange, and a customer's
+                    change of mind will be processed upon return request.</li>
+                <li>Minor scratches, stains, lack of paint, peeling paint, etc. that occur during the process are
+                    process damage and are not grounds for exchange/return.</li>
+                <li>When returning the product, please pack it in cushioning to prevent it from getting damaged.</li>
+            </ul>
+
+        </div>
+        <div id="review">
+            <ul>
+                <li><a href="#detail">Product Details</a></li>
+                <li><a href="#refund">Refund & Return Policy</a></li>
+                <li><a href="#review"><strong>Product Reviews</strong></a></li>
+            </ul>
+            <h2>Customers Reviews</h2>
+
+            <ul class="upper">
+                <li>Helpful</li>
+                <li>Recent</li>
+            </ul>
+            <img src="img/starrate.png" alt="star">
+            <div class="helpful">
+                <p>Does not match fried fish and mayonnaise but then opens up on squid 
+                    in tomato sauce and reveals the apples and lemony smell and the balanced 
+                    acidity in mouth. Probably on the descending phase but still good</p>
+                    <span>Paul Rudd</span>
+                    <p>very nice, well aged wine. Butter, stone fruit, quince.
+                     Medium full in body, oily. Lovely.</p>
+                <span>Happy Hogan</span>
+                <p>Fresh lemon, lime, pear, green melon, cinnamon with an 
+                    off-dry finish. Lots going on here. My first Pinot Bianco.</p>
+                    <span>Pepper Potts</span>
+            </div>
+            <div class="recent">
+                
+                <p>Ripe apple, ripe pear, banana, vanilla, toast and oak. Sweetness on the nose, balanced acidity and good length.</p>
+                <span>Natasha Romanoff</span>
+                <p>Past its peak, but still nice. Nose of tropical fruits, turpentine and sherry. Slightly oxidized, with good body</p>
+                <span>Bruce Banner</span>
+                <p>Nice one. On the tongue a balanced mix between fruit, herbs and vanilla.</p>
+                <span>Tony Stark</span>
+            </div>
+
+            <div class="rebox">
+                <p>Do you want to leave your review?</p>
+                <button>LOG IN OR REGISTER</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class=bottombox>
+        <p>Similar wines</p>
+        <h2>You May Also Like</h2>
+        
+
+        <div class="winebox">
+            <img src="img/main-wine.png" alt="wine">
+            <a href="detail.html">Ribolla Gialla</a>
+            <p>$40.0</p>
+
+        </div>
+        <div class="winebox">
+            <img src="img/mwine2.png" alt="wine">
+            <a href="detail.html">Sauvignon</a>
+            <p>$58.99</p>
+        </div>
+        <div class="winebox">
+            <img src="img/detail1.png" alt="wine">
+            <a href="detail.html">Borgogno</a>
+            <p>$25.99</p>
+        </div>
+        <div class="winebox">
+            <img src="img/detail2.png" alt="wine">
+            <a href="detail.html">Picolit</a>
+            <p>$20.0</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <footer>
+
+        <div class="footer-img">
+
+        </div>
+        <div class="footer">
+
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">VINEYARDS</a></li>
+                    <li><a href="index.html">WINES</a></li>
+                    <li><a href="index.html">VISIT AND TASTING</a></li>
+                    <li><a href="index.html">CONTACTS</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h1>CONTACT</h1>
+                <hr>
+                <p>Le Vigne di Zamò s.r.l. società agricola <br>
+                    Via Abate Corrado 1 <br>
+                    Località Rosazzo – Manzano (Ud) Italia</p>
+                <p>Tel. [+39] 0432.759.693</p>
+                <p>Fax [+39] 0432.759.884</p>
+                <p>info@levignedizamo.com</p>
+            </div>
+            <div class="footer-logo">
+                <img src="img/logo-main.png" alt="footer_logo">
+                <p>2021 © LE VIGNE DI ZAMÒ S.R.L. A SOCIO UNICO È SOGGETTA ALL’ATTIVITÀ DI DIREZIONE E COORDINAMENTO DA
+                    PARTE DELLA SOCIETÀ CASA E. DI
+                    MIRAFIORE E FONTANAFREDDA S.R.L. DI <br>
+                    CUI ALL’ART. 2497 BIS DEL COD.CIV. - P.IVA 01667250300 - PRIVACY E COOKIE POLICY - NOTE LEGALI</p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

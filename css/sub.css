@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+
+/* 슬라이더 */
+#slider {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #eef8eb;
+
+
+}
+
+#slider .box {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.box img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 50px 50px 50px 300px;
+}
+
+.box h1 {
+    display: inline-block;
+    margin: 50px 0 15px 0;
+    color: rgb(179, 57, 57);
+}
+
+
+
+
+
+/* 문단1 */
+
+.content1 {
+    width: 1240px;
+    height: 1500px;
+    margin: 0 auto;
+
+}
+
+.line .wine {
+    width: 250px;
+    height: 450px;
+    float: left;
+
+
+    margin: 30px;
+    position: relative;
+   
+}
+
+.line .wine img {
+    width: 130px;
+    height: 230px;
+    margin: 10px 60px;
+    transition: 0.5s;
+}
+
+
+.line .wine img:hover {
+    transform: scale(1.05);
+}
+
+.wine h2 {
+    padding: 5px 0;
+    
+    font-size: 20px;
+}
+
+.wine h2:hover {
+    
+    
+    text-shadow: 0 0 5px #c6f5b8;
+}
+
+.wine p {
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+    font-weight: bold;
+}
+
+.name a:nth-of-type(2) {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: #eef8eb;
+    border-radius: 10px;
+    border: none;
+    transition:0.5s;
+}
+.name a:nth-of-type(2):hover{background-color: #c2f6b2;}
+
+
+
+
+
+
+
+
+/* 문단2 */
+
+.content2 {
+    width: 1240px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.bottom-box {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+
+}
+.bottom-box>h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    text-shadow: 2px 2px 3px #999;
+}
+
+.bottom-box div {
+    width: 350px;
+    height: 600px;
+    
+    float: left;
+    margin: 100px 30px;
+}
+.bottom1 img{
+    width: 100%;
+    height: 350px;
+    transition: 0.5s;
+}
+.bottom1 img:hover{
+    transform: scale(1.1);
+}
+.bottom1 .hot{
+    background-color:rgb(179, 57, 57);
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+}
+.bottom1 h2{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 35px;
+    
+
+}
+
+.bottom-box div h2:hover{
+    font-style: italic;
+    text-shadow: 0 0 5px #c6f5b8;
+}
+
+.bottom1 span:nth-of-type(2){
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-left: 40px;
+    opacity: 0.7;
+}
+.bottom1 span:nth-of-type(3){
+    font-size: 30px;
+    margin: 20px;
+   
+}
+.bottom1 a:nth-of-type(3){
+    display: block;
+    width: 300px;
+    text-align: center;
+    border: none;
+    background-color:#eef8eb ;
+    margin: 30px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    transition: 0.5s;
+}
+.bottom1 a:nth-of-type(3):hover{
+    background-color: #c2f6b2 ;
+}
+
+
+.bottom2 img{
+    width: 110%;
+    height: 350px;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+.bottom2 img:hover{
+    transform: scale(1.1);
+}
+.bottom2 h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 42px;
+}
+.bottom2 span{
+    border: 1px solid #555;
+    color: tomato;
+    padding: 3px 8px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.bottom2 p{
+    font-size: 30px;
+    text-align: center;
+    margin: 12px;
+
+}
+
+.bottom2 a:nth-of-type(3){
+    display: block;
+    width: 300px;
+    margin: 25px;
+    border: none;
+    background-color:#eef8eb ;
+    text-align: center;
+   
+    font-size: 20px;
+    
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    transition: 0.5s;
+}
+.bottom2 a:nth-of-type(3):hover{
+    background-color: #c2f6b2 ;
+}
+
+
+.bottom3 img{
+    width: 110%;
+    height: 330px;
+    transition: 0.5s;
+}
+.bottom3 img:hover{
+    transform: scale(1.1);
+}
+.bottom3 .sale{
+    background-color: rgb(179, 57, 57);
+    color: white;
+    font-size: 20px;
+    padding: 3px 8px;
+}
+.bottom3 h2{
+    text-align: center;
+    margin:45px 0 35px 0;
+    font-size: 35px;
+
+}
+
+.bottom3 span:nth-of-type(2){
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-left: 40px;
+    opacity: 0.7;
+}
+.bottom3 span:nth-of-type(3){
+    font-size: 30px;
+    margin: 20px;
+   
+}
+.bottom3 a:nth-of-type(3){
+    display: block;
+    width: 300px;
+    margin: 28px 30px 30px 30px;
+    border: none;
+    background-color:#eef8eb ;
+    text-align: center;
+    font-size: 20px;
+    
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    transition: 0.5s;
+}
+.bottom3 a:nth-of-type(3):hover{
+    background-color: #c2f6b2 ;
+}

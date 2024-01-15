@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/* 헤더 */
+header {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo img {
+    width: 260px;
+    height: 120px;
+    float: left;
+}
+
+/* 메뉴바  */
+
+
+.n1 {
+    width: 600px;
+    height: 30px;
+    float: right;
+    position: relative;
+    top: 45px;
+    right: 200px;
+}
+
+
+
+.n1 a {
+    display: inline-block;
+    padding: 5px 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.n1 a:hover{opacity: 0.5;}
+
+.n1 ul{display: inline-block;
+}
+.n1 ul li{display: inline-block; position: relative;
+    border:3px solid transparent ;}
+.n1 ul li:hover{border: 3px solid#666;}
+.n1 ul li:hover ul{display: block;}
+.n1 ul li ul{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    background-color: white;
+    display: none;
+    z-index: 5;
+    
+}
+.n1 ul li ul li{
+    display: block;
+}
+.n1 ul li ul li a{
+    font-weight: normal;
+    display: block;
+}
+
+.n1 ul{display: inline-block;}
+
+.n2 {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 45px;
+
+}
+.n2>ul>li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.n2 li:nth-child(2) {
+    vertical-align: middle;
+}
+
+.n2>ul>li:hover {
+    opacity: 0.5;
+}
+.n2 img[alt="돋보기"]{
+    width:30px;
+     height:30px;
+}
+
+
+
+
+/* 풋터 */
+footer {
+    width: 100%;
+    height: 530px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer {
+    width: 1240px;
+    height: 530px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/footer.jpg);
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.footer-menu>ul {
+    position: absolute;
+    top: 140px;
+    left: 0;
+}
+
+.footer-menu ul li {
+    font-size: 25px;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.footer-menu ul li:hover {
+    opacity: 0.5;
+}
+
+.contact {
+
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+
+.footer-logo {
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+.footer-logo img[alt="footer_logo"]{
+    width: 300px;
+    height: 100px;
+}
+
+.contact hr {
+    border: 2px solid #333;
+    margin: 10px 0;
+}
+
+.contact p {
+    line-height: 30px;
+}
